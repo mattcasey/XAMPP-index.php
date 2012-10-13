@@ -42,9 +42,6 @@ iframe {
 </style>
 <link rel="stylesheet" type="text/css" href="phpmyadmin/phpmyadmin.css.php"></script>
 <body>
-<?php
-	$uri = $_SERVER['HTTP_HOST'];
-?>
 <div id="main">
 	<div class="container">
 		<div id="menu">
@@ -64,7 +61,7 @@ iframe {
 			</ul>
 		</div>
 		<div>
-			<iframe src="http://localhost/phpmyadmin/server_databases.php"></iframe>
+			<iframe src="http://localhost/phpmyadmin/"></iframe>
 		</div>
 		<div class="clear-block"></div>
 	</div>
