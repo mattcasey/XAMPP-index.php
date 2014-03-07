@@ -5,7 +5,7 @@ body {
 	color: #111;
 	font-family: verdana, sans-serif;
 	padding: 0;
-	margin: 0;
+	margin: 0 !important;
 	}
 #main {
 	width: 100%;
